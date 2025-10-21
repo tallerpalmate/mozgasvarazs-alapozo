@@ -1,3 +1,24 @@
+.hero {
+  padding: 50px 20px;
+  background-color: #f7fbff;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.hero-image {
+  max-width: 350px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+blockquote {
+  font-style: italic;
+  color: #333;
+  font-size: 1.2em;
+}
+
+
+"""
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f8fbff;
@@ -15,6 +36,8 @@ footer {
 a {
   color: #0077cc;
 }
+
 a:hover {
   text-decoration: underline;
 }
+"""
