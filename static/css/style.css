@@ -17,6 +17,32 @@ blockquote {
   font-size: 1.2em;
 }
 
+### évszám szíbezés remélem jó lesz.
+.timeline {
+  list-style: none;
+  padding: 0;
+  border-left: 3px solid #87CEFA;
+  margin-left: 20px;
+}
+
+.timeline li {
+  margin: 15px 0;
+  padding-left: 10px;
+  position: relative;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  background-color: #A8E6CF;
+  border-radius: 50%;
+}
+
+
 
 """
 body {
