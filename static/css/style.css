@@ -17,7 +17,7 @@ blockquote {
   font-size: 1.2em;
 }
 
-### évszám szíbezés remélem jó lesz.
+# évszám szíbezés remélem jó lesz.
 .timeline {
   list-style: none;
   padding: 0;
@@ -41,8 +41,41 @@ blockquote {
   background-color: #A8E6CF;
   border-radius: 50%;
 }
+# új rész a szép pipákat tesz a lista elé
+# link kéken látható
+.services ul {
+  list-style: none;
+  padding-left: 0;
+}
 
-#első verzió
+.services ul li {
+  margin: 8px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.services ul li::before {
+  content: "✔";
+  color: #87CEFA;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.services a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.services a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+# első verzió
 
 """
 body {
