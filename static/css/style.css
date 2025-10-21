@@ -1,3 +1,4 @@
+/* Hero szekció */
 .hero {
   padding: 50px 20px;
   background-color: #f7fbff;
@@ -17,7 +18,7 @@ blockquote {
   font-size: 1.2em;
 }
 
-# évszám szíbezés remélem jó lesz.
+/* Évszámos idővonal (timeline) */
 .timeline {
   list-style: none;
   padding: 0;
@@ -41,8 +42,8 @@ blockquote {
   background-color: #A8E6CF;
   border-radius: 50%;
 }
-# új rész a szép pipákat tesz a lista elé
-# link kéken látható
+
+/* Szolgáltatás oldal – pipa ikonok és linkek */
 .services ul {
   list-style: none;
   padding-left: 0;
@@ -72,8 +73,7 @@ blockquote {
   text-decoration: underline;
 }
 
-#kapcsolati foto
-
+/* Kapcsolati oldal */
 .contact-info {
   text-align: center;
   font-size: 1.1em;
@@ -103,11 +103,37 @@ blockquote {
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
 }
 
+/* Általános stílusok – első verzió */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fbff;
+  color: #333;
+}
+
+.navbar {
+  background-color: #dceeff;
+}
+
+footer {
+  background-color: #dceeff;
+  padding: 1rem;
+  text-align: center;
+  color: #555;
+}
+
+a {
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 
 # első verzió
 
-"""
+/*
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f8fbff;
@@ -129,4 +155,4 @@ a {
 a:hover {
   text-decoration: underline;
 }
-"""
+*/
