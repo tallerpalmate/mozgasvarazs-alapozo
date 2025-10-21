@@ -1,4 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <div class="container text-center">
+    <img src="{{ url_for('static', filename='img/profil_kep.jpg') }}" alt="Mozgásvarázsa Alapozó" class="hero-image">
+    <h1 class="mt-4">Tallér Erika Ágnes</h1>
+    <h3>Gyógypedagógus, Alapozó Mozgásfejlesztő</h3>
+    <blockquote class="mt-3">“Minden gyermek egyedi, és minden mozdulat egy új lehetőség a fejlődésre.”</blockquote>
+
+    <p class="lead mt-4">
+      Üdvözöllek a <strong>Mozgásvarázsa Alapozó Fejlesztés</strong> oldalán!<br><br>
+      Célom, hogy segítsek a gyermekeknek elérni a bennük rejlő lehetőségeket – 
+      mozgáson, játékon és személyre szabott fejlesztésen keresztül.<br><br>
+      A foglalkozások során a mozgás és a tanulás öröme találkozik, 
+      biztonságos és szeretetteljes légkörben.
+    </p>
+  </div>
+</section>
+
+{% endblock %}
+
+
+
+
+"""
 {% extends 'base.html' %}
 {% block content %}
 <h1>Alapozó Fejlesztés és Iskolaelőkészítő – Tatabánya</h1><p>Gyógypedagógusként lehetőséget kaptam arra, hogy hátrányos helyzetű gyermekekkel foglalkozzak, ami a hivatásom lett. A munkám során fontosnak tartom, hogy a gyermekek teljes személyiségét megismerve, rájuk igazítva tartsam meg a foglalkozásokat. Hiszem, hogy a gyermek és a szülő közös munkája nélkülözhetetlen az egység és a harmonikus fejlődés érdekében.</p>
 {% endblock %}
+"""
