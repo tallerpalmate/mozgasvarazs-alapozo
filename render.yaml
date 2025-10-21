@@ -1,0 +1,12 @@
+# render.yaml
+services:
+  - type: web
+    name: mozgasvarazsa-app        # bármi lehet, ez csak megjelenítési név
+    env: python
+    plan: free                     # ez az ingyenes verziót jelzi
+    buildCommand: ""               # Flask-hez nem kell külön build
+    startCommand: gunicorn mozgasvarazsa:app
+    autoDeploy: true               # automatikus újradeploy GitHub push után
+    envVars:
+      - key: PORT
+        value: 10000               # Render automatikusan felülírja, de jó fallback
