@@ -1,0 +1,3 @@
+git add static/img/profil_kep.jpg
+git commit -m "Add image folder"
+git push
