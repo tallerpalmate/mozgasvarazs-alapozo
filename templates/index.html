@@ -1,24 +1,39 @@
 {% extends "base.html" %}
 {% block content %}
 
-<section class="hero">
-  <div class="container text-center">
-    <img src="{{ url_for('static', filename='img/profil_kep.jpg') }}" alt="Mozgásvarázsa Alapozó" class="hero-image">
-    <h1 class="mt-4">Tallér Erika Ágnes</h1>
-    <h3>Gyógypedagógus, Alapozó Mozgásfejlesztő</h3>
-    <blockquote class="mt-3">“Minden gyermek egyedi, és minden mozdulat egy új lehetőség a fejlődésre.”</blockquote>
+<section class="hero container mt-5 mb-5 d-flex align-items-center">
+  <div class="row align-items-center">
+    
+    <!-- BAL OLDALT KÉP -->
+    <div class="col-md-5 text-center">
+      <img src="{{ url_for('static', filename='img/kezdo.png') }}" 
+           alt="Mozgásvarázsa Alapozó" 
+           class="hero-image img-fluid">
+    </div>
 
-    <p class="lead mt-4">
-      Üdvözöllek a <strong>Mozgásvarázsa Alapozó Fejlesztés</strong> oldalán!<br><br>
-      Célom, hogy segítsek a gyermekeknek elérni a bennük rejlő lehetőségeket – 
-      mozgáson, játékon és személyre szabott fejlesztésen keresztül.<br><br>
-      A foglalkozások során a mozgás és a tanulás öröme találkozik, 
-      biztonságos és szeretetteljes légkörben.
-    </p>
+    <!-- JOBB OLDALT SZÖVEG -->
+    <div class="col-md-7">
+      <h1 class="mt-3">Tallér Erika Ágnes</h1>
+      <h4>Gyógypedagógus, Alapozó Mozgásfejlesztő</h4>
+
+      <blockquote class="mt-4">
+        „Minden gyermek egyedi, és minden mozdulat egy új lehetőség a fejlődésre.”  
+        <footer>– ismeretlen szerző</footer>
+      </blockquote>
+
+      <p class="lead mt-4">
+        Üdvözöllek a <strong>Mozgásvarázsa Alapozó Fejlesztés</strong> oldalán!<br><br>
+        Célom, hogy segítsek a gyermekeknek elérni a bennük rejlő lehetőségeket – 
+        mozgáson, játékon és személyre szabott fejlesztésen keresztül.<br><br>
+        A foglalkozások során a mozgás és a tanulás öröme találkozik, 
+        biztonságos és szeretetteljes légkörben.
+      </p>
+    </div>
   </div>
 </section>
 
 {% endblock %}
+
 
 
 
