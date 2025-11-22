@@ -14,6 +14,10 @@ def rolunk():
 def szolgaltatasok():
     return render_template('szolgaltatasok.html')
 
+@app.route("/arak")
+def arak():
+    return render_template("arak.html")
+
 @app.route('/kapcsolat')
 def kapcsolat():
     return render_template('kapcsolat.html')
