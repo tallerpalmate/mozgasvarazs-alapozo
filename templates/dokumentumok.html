@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Dokumentumok</h1>
+<p>Itt találhatók a Mozgásvarázsa Alapozóval kapcsolatos letölthető dokumentumok.</p>
+
+<h2>Adatkezelés (GDPR)</h2>
+<ul>
+  <li>
+    <strong>Adatkezelési tájékoztató (GDPR)</strong> –
+    <a href="{{ url_for('static', filename='dokumentumok/adatkezeles_gdpr.pdf') }}" target="_blank">
+      Megnyitás (PDF)
+    </a>
+  </li>
+</ul>
+
+<h2>Nyilatkozatok</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Dokumentum</th>
+      <th>PDF</th>
+      <th>Word</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nyilatkozat 1</td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_1.pdf') }}" target="_blank">
+          Megnyitás (PDF)
+        </a>
+      </td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_1.docx') }}" target="_blank">
+          Megnyitás (Word)
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Nyilatkozat 2</td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_2.pdf') }}" target="_blank">
+          Megnyitás (PDF)
+        </a>
+      </td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_2.docx') }}" target="_blank">
+          Megnyitás (Word)
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Nyilatkozat 3</td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_3.pdf') }}" target="_blank">
+          Megnyitás (PDF)
+        </a>
+      </td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_3.docx') }}" target="_blank">
+          Megnyitás (Word)
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Nyilatkozat 4</td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_4.pdf') }}" target="_blank">
+          Megnyitás (PDF)
+        </a>
+      </td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_4.docx') }}" target="_blank">
+          Megnyitás (Word)
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Nyilatkozat 5</td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_5.pdf') }}" target="_blank">
+          Megnyitás (PDF)
+        </a>
+      </td>
+      <td>
+        <a href="{{ url_for('static', filename='dokumentumok/nyilatkozat_5.docx') }}" target="_blank">
+          Megnyitás (Word)
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}
