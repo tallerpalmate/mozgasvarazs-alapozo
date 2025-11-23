@@ -18,6 +18,10 @@ def szolgaltatasok():
 def arak():
     return render_template("arak.html")
 
+@app.route("/dokumentumok")
+def dokumentumok():
+    return render_template("dokumentumok.html")
+
 @app.route('/kapcsolat')
 def kapcsolat():
     return render_template('kapcsolat.html')
